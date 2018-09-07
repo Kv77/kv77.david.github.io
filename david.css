@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300')
+@import url('https://fonts.googleapis.com/css?family=Cinzel:700')
+
+body {
+font-family: "Open Sans Condensed", sans-serif;
+}
+
+body {
+	background-color: #232526;
+}
+
+.jumbotron  {
+	background: url("davidBW.jpg") no-repeat;
+	
+	text-align: center;
+	background-size: cover;
+	color: white;
+	padding-top: 20%;
+    padding-bottom: 20%;
+    height: 100%;
+    width: 100%;
+	transition-property: background, border-radius;
+	transition-duration: 8s;
+	background-color: black;
+	margin-bottom: 500px;
+}
+
+.jumbotron:hover {
+	border-radius: 30%;
+}
+
+.last {
+	font-size: 100px;
+	inline
+}
+
+.greeting h1 {
+	font-family: 'Cinzel', serif;
+	color: #82ffec;
+	font-size: 80px;
+}
+
+
+.greeting h3 {
+	font-size: 20px;
+	font-family: "Open Sans Condensed";
+}
+
+
+
+.social-icons i {
+  font-size:32px;
+  display:inline-block;
+  color:#232526;
+  margin:0 10px;
+  width:60px;
+  height:60px;
+  border:1px solid #c8ced7;
+  border-radius:50%;
+  line-height:60px;
+  background-color: #82ffec;
+}
+
+.social-icons
+.socBox {
+	display: inline;
+	width: 50%;
+}
+
+.social-icons {
+  color:#313437;
+  background-color:#fff;
+  padding:70px 0;
+}
+
+.social-icons 
+.fa-facebook:hover {
+	color: #3B5998;
+}
+
+.social-icons
+.fa-snapchat:hover {
+	color: #FFFB00;
+}
+
+.social-icons
+.fa-youtube:hover {
+	color: #cc181e;
+}
+
+.social-icons
+.fa-soundcloud:hover {
+	color: #ff7700;
+}
+
+/*/*Mid*/
+.main-mid {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+/*Cards*/
+
+#cardGroup .card:nth-child(even) {
+    float: right;
+    padding-left: 3.125rem;
+}
+
+
+.card{
+	width: 100%;
+	text-align: center;
+	margin: auto;
+border-radius: 30%;
+	transition-property: background, border-radius;
+	transition-duration: 5s;
+}
+
+
+
+.card-group  {
+	margin: auto;
+	border-radius: 10%;
+
+}
+
+.card-img-top {
+	border-radius: 30%;
+
+}
+.card-img-top:hover
+ {
+	filter: grayscale(100);
+
+
+}
+
+.card-body {
+	color: #232526;
+	
+
+}
+
+.mixing {
+	padding-bottom: 300px;
+	
+}
+
+.mastering {
+	padding-bottom: 300px;
+}
+
+.producing {
+	padding-bottom: 700px;
+}
+
+.popUp {
+	text-align: center;
+	background: grey;
+	width: 70%;
+	font-size: 3rem;
+	margin: auto;
+	display: inline;
+	
+}
+
+/*Icons*/
+
+
+.icons{
+	display: inline;
+	
+	text-align: center;
+	width: 100%;
+	padding: auto;
+}
+
+.socFoot {
+	padding-bottom: 200px;
+}
+
+
+
+/*/*Media Quiery*/
+
+/*@media(min-width: 740px){*/
+/*	.jumbotron h1 
+	 {
+		
+		float:none;
+		font-size: 180px;
+		height: 700px;
+	
+	}
+
+@media(min-width: 740px){
+	.greeting h3
+	{
+		font-size: 40px;
+	}*/*/*/*/
+
+/*
+@media(max-width: 500px){
+	.jumbotron,
+	h1 p,
+	.greeting h3 {
+		
+	background-image: left 300px; 
+	font-size: 20px;*/
